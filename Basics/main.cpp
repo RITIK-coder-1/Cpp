@@ -7,4 +7,5 @@ int main(){ // it is the main function of the C++ program within which everythin
     std::cout << "New Line" << std::endl;
     puts("HEYY"); // it can also be used to print statements. It adds a new line automatically.
     return 0; // return 0 makes sure that the program has been executed successfully
+    puts("null"); // nothing gets executed after returning something.
 }
