@@ -25,5 +25,11 @@ int main(){
     num6 = 10;
     // num6 = num5; it can not be reassigned to a different variable
     cout << "num4: " << num6 << "\n"; // changed // 10
+
+    string name = "ritik";
+    string &newName = name;
+    cout << name << "\n";
+    newName = "RITIK";
+    cout << name << "\n";
     return 0;
 } 
