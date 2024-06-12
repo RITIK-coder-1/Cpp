@@ -4,7 +4,7 @@ using namespace std; // this line tells the program to use the "standard" namesp
 
 int main(){ // main() is the main function that contains the actual code of the C++ file, the program starts and ends with it. C++ files can't be written without the main function. The "int" keyword tells the compiler that the main function returns an integer value. 
 
-    cout << "Hello World!"; // cout stands for character out, it is a standard output stream, used to print characters onto the console. "<<" operator injects data to the cout stream. 
+    cout << "Hello World!" << endl; // cout stands for character out, it is a standard output stream, used to print data onto the console. "<<" operator injects data to the cout stream. "endl" is a stream that adds a new line to the output value
 
     return 0; // It is a convention to denote the exit status in a C++ program. Returning 0 means the program is executed successfully.
 }
